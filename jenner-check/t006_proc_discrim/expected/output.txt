@@ -1,0 +1,89 @@
+
+                          The DISCRIM Procedure
+
+      Total Sample Size          36    DF Total              35
+      Variables                   5    DF Within Classes     24
+      Classes                    12
+
+                        Prior Probabilities for Classification
+
+                          admin. blue-collarentrepreneur   housemaid  management     retiredself-employed    services     student  technician  unemployed     unknown
+
+     Prior                0.0833      0.0833      0.0833      0.0833      0.0833      0.0833      0.0833      0.0833      0.0833      0.0833      0.0833      0.0833
+     Frequency                 3           3           3           3           3           3           3           3           3           3           3           3
+
+                      Class Level Information for Discriminant Analysis
+
+      admin.: 346.0000  4.3333  42.3333  93.7590  -38.3333
+      blue-collar: 555.3333  3.0000  64.3333  92.7213  -42.9667
+      entrepreneur: 491.0000  5.3333  45.0000  93.6293  -36.0667
+      housemaid: 460.6667  5.3333  33.0000  92.8077  -34.4667
+      management: 709.0000  4.3333  46.0000  93.0950  -35.9000
+      retired: 518.0000  5.6667  48.3333  93.1317  -28.3333
+      self-employed: 276.6667  6.3333  46.6667  93.0763  -40.5667
+      services: 163.0000  5.3333  39.0000  93.0637  -38.2667
+      student: 683.6667  7.0000  60.0000  92.6993  -41.1333
+      technician: 413.0000  4.0000  52.3333  93.1350  -40.8000
+      unemployed: 271.6667  4.0000  50.6667  93.0360  -38.1333
+      unknown: 360.6667  6.3333  22.6667  93.3123  -34.1000
+
+               Classification Summary for Calibration Data: Classification Results
+
+           0     0     1     0     0     0     0     1     0     0     0     1
+           0     2     0     0     0     0     0     0     0     0     1     0
+           1     0     0     0     1     0     0     0     0     0     0     1
+           0     0     0     1     0     0     0     0     1     0     1     0
+           0     0     0     0     3     0     0     0     0     0     0     0
+           0     0     1     0     0     2     0     0     0     0     0     0
+           0     0     0     0     0     0     0     0     1     0     1     1
+           0     0     0     0     0     0     0     2     0     0     1     0
+           0     1     0     0     0     1     0     0     1     0     0     0
+           0     0     0     1     0     0     0     0     0     2     0     0
+           1     0     0     1     0     0     0     0     0     0     1     0
+           0     0     1     0     0     0     0     1     0     0     0     1
+
+      Error Count Estimates for Classification Results
+      Total Error Rate: 0.5833
+
+      Cross-validation Error Rate: 0.9722
+
+      Classification Results for Calibration Data
+
+      Obs  True Class         Classified into    Posterior Probability
+        1  self-employed        unemployed         
+        2  entrepreneur         admin.             
+        3  management           management         *
+        4  entrepreneur         management         
+        5  technician           technician         *
+        6  unemployed           housemaid          
+        7  housemaid            housemaid          *
+        8  unknown              entrepreneur       
+        9  unemployed           admin.             
+       10  self-employed        student            
+       11  retired              retired            *
+       12  blue-collar          blue-collar        *
+       13  unemployed           unemployed         *
+       14  student              student            *
+       15  technician           technician         *
+       16  student              retired            
+       17  unknown              services           
+       18  self-employed        unknown            
+       19  housemaid            unemployed         
+       20  admin.               services           
+       21  student              blue-collar        
+       22  blue-collar          blue-collar        *
+       23  admin.               entrepreneur       
+       24  blue-collar          unemployed         
+       25  unknown              unknown            *
+       26  technician           housemaid          
+       27  management           management         *
+       28  services             unemployed         
+       29  retired              retired            *
+       30  management           management         *
+       31  services             services           *
+       32  housemaid            student            
+       33  retired              entrepreneur       
+       34  entrepreneur         unknown            
+       35  services             services           *
+       36  admin.               unknown            
+

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_proc_means_by_class",
+  "source_file": "bankfinal.sas",
+  "source_blob_sha": "7ffdf420b695bc6beae6e88f20852b4c8820703f",
+  "source_commit": "a92e04e443ec7508e49e9b56ce48fd830794b5e9",
+  "notes": "PROC MEANS with CLASS job and explicit VAR list; verbatim from bankfinal.sas."
+}

@@ -1,0 +1,18 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA banknew
+
+NOTE: Processing inline DATALINES (36 lines)
+
+NOTE: Read 36 rows from DATALINES.
+NOTE: Wrote banknew (36 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GLM data=banknew
+
+NOTE: ODS plot written: glm_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: glm_residual_histogram_panel.spec.json
+NOTE: ODS plot written: glm_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: glm_qq_plot.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.

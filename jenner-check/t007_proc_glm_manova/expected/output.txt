@@ -1,0 +1,68 @@
+                                                              The GLM Procedure                                                              
+                                                           Class Level Information                                                           
+
+Class       Levels  Values                                                                                                                   
+--------  --------  -------------------------------------------------------------------------------------------------------------------------
+job             12  admin. blue-collar entrepreneur housemaid management retired self-employed services student technician unemployed unknown
+
+Number of Observations Read        36
+Number of Observations Used        36
+
+                            The GLM Procedure                             
+                       Dependent Variable: duration                       
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                  11    905004.55556  82273.14141      1.95    0.0838
+Error                  24   1014904.00000  42287.66667                    
+Corrected Total        35   1919908.55556                                 
+
+R-Square  Coeff Var    Root MSE  duration Mean
+--------  ---------  ----------  -------------
+0.471379   47.01529  205.639652     437.388889
+
+Source          DF     Type I SS  Mean Square   F Value    Pr > F
+--------  --------  ------------  -----------  --------  --------
+job             11  905004.55556  82273.14141      1.95    0.0838
+
+Source          DF   Type III SS  Mean Square   F Value    Pr > F
+--------  --------  ------------  -----------  --------  --------
+job             11  905004.55556  82273.14141      1.95    0.0838
+
+                   Dependent Variable: campaign                    
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+job             11        45.41667      4.12879      0.44    0.9217
+Error           24       225.33333      9.38889                    
+
+                      Dependent Variable: age                      
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+job             11      4129.63889    375.42172      0.97    0.4984
+Error           24      9298.66667    387.44444                    
+
+              Dependent Variable: consumerpriceeindex              
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+job             11         3.45373      0.31398      0.84    0.6087
+Error           24         9.02141      0.37589                    
+
+            Dependent Variable: consumerconfidenceindex            
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+job             11       523.18222     47.56202      0.72    0.7085
+Error           24      1584.12000     66.00500                    
+
+MANOVA Test Criteria and F Approximations for the Hypothesis of No Overall job Effect
+
+Statistic                  Value   F Value    Num DF    Den DF    Pr > F
+----------------------  --------  --------  --------  --------  --------
+Wilks' Lambda           0.149897      0.89        55        96    0.6841
+Pillai's Trace          1.438577      0.88        55       120    0.6964
+Hotelling-Lawley Trace  2.676394      0.90        55        92    0.6680
+Roy's Greatest Root     1.539864      3.36        11        24    0.0063
+

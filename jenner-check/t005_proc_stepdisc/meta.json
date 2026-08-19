@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_proc_stepdisc",
+  "source_file": "bankfinal.sas",
+  "source_blob_sha": "7ffdf420b695bc6beae6e88f20852b4c8820703f",
+  "source_commit": "a92e04e443ec7508e49e9b56ce48fd830794b5e9",
+  "notes": "PROC STEPDISC STEPWISE with CLASS job (no DATA=/VAR, relies on _LAST_ and default numeric var selection); verbatim from bankfinal.sas."
+}

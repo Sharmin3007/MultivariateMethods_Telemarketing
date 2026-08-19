@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_proc_freq_job",
+  "source_file": "bankfinal.sas",
+  "source_blob_sha": "7ffdf420b695bc6beae6e88f20852b4c8820703f",
+  "source_commit": "a92e04e443ec7508e49e9b56ce48fd830794b5e9",
+  "notes": "PROC FREQ frequency table of the job category; verbatim from bankfinal.sas. Mock data: 36 rows, 12 job categories x 3 rows, matching the UCI Bank Marketing schema used by banknew2.txt."
+}

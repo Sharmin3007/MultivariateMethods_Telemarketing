@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-08-19T13:40:55.491246+00:00",
+  "_captured_run_id": "r_5bdd5db953914897b2795403f3e51e4d",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Option OBS changed to 100.",
+    "NOTE: DATA banknew",
+    "NOTE: Processing inline DATALINES (36 lines)",
+    "NOTE: Read 36 rows from DATALINES.",
+    "NOTE: Wrote banknew (36 rows, 10 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

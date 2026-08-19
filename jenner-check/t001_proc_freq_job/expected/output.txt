@@ -1,0 +1,17 @@
+                                                   The FREQ Procedure
+
+                                           Cumulative    Cumulative
+job              Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------
+admin.                   3      8.33            3         8.33
+blue-collar              3      8.33            6        16.67
+entrepreneur             3      8.33            9        25.00
+housemaid                3      8.33           12        33.33
+management               3      8.33           15        41.67
+retired                  3      8.33           18        50.00
+self-employed            3      8.33           21        58.33
+services                 3      8.33           24        66.67
+student                  3      8.33           27        75.00
+technician               3      8.33           30        83.33
+unemployed               3      8.33           33        91.67
+unknown                  3      8.33           36       100.00

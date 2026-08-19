@@ -1,0 +1,31 @@
+
+                    The STEPDISC Procedure
+                       Method: Stepwise Selection
+
+Class Level Information
+
+Class    Variable   Frequency   Weight   Proportion
+self-employed self-employed        3       3.00     0.0833
+entrepreneur entrepreneur        3       3.00     0.0833
+management management        3       3.00     0.0833
+technician technician        3       3.00     0.0833
+unemployed unemployed        3       3.00     0.0833
+housemaid  housemaid         3       3.00     0.0833
+unknown    unknown           3       3.00     0.0833
+retired    retired           3       3.00     0.0833
+blue-collar blue-collar        3       3.00     0.0833
+student    student           3       3.00     0.0833
+admin.     admin.            3       3.00     0.0833
+services   services          3       3.00     0.0833
+
+Step 1: Variable DURATION Entered
+  Partial R-Square = 0.4714  F Value = 1.9456  Pr > F = 0.0838
+  Wilks' Lambda = 0.528621
+
+Stepwise Selection Summary
+
+Number of Variables Selected: 1
+Selected Variables: DURATION
+
+Observations: 36  Variables Considered: 5
+Class Levels: self-employed entrepreneur management technician unemployed housemaid unknown retired blue-collar student admin. services

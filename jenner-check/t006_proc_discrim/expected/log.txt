@@ -1,0 +1,93 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA banknew
+
+NOTE: Processing inline DATALINES (36 lines)
+
+NOTE: Read 36 rows from DATALINES.
+NOTE: Wrote banknew (36 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC DISCRIM data= method=Normal pool=Test
+
+NOTE: Using Python sklearn version 1.9.0 for discriminant analysis
+NOTE: Class Frequencies:
+NOTE:   admin.: 3
+NOTE:   blue-collar: 3
+NOTE:   entrepreneur: 3
+NOTE:   housemaid: 3
+NOTE:   management: 3
+NOTE:   retired: 3
+NOTE:   self-employed: 3
+NOTE:   services: 3
+NOTE:   student: 3
+NOTE:   technician: 3
+NOTE:   unemployed: 3
+NOTE:   unknown: 3
+NOTE: Class Means:
+NOTE:   admin.: 346.0000, 4.3333, 42.3333, 93.7590, -38.3333
+NOTE:   blue-collar: 555.3333, 3.0000, 64.3333, 92.7213, -42.9667
+NOTE:   entrepreneur: 491.0000, 5.3333, 45.0000, 93.6293, -36.0667
+NOTE:   housemaid: 460.6667, 5.3333, 33.0000, 92.8077, -34.4667
+NOTE:   management: 709.0000, 4.3333, 46.0000, 93.0950, -35.9000
+NOTE:   retired: 518.0000, 5.6667, 48.3333, 93.1317, -28.3333
+NOTE:   self-employed: 276.6667, 6.3333, 46.6667, 93.0763, -40.5667
+NOTE:   services: 163.0000, 5.3333, 39.0000, 93.0637, -38.2667
+NOTE:   student: 683.6667, 7.0000, 60.0000, 92.6993, -41.1333
+NOTE:   technician: 413.0000, 4.0000, 52.3333, 93.1350, -40.8000
+NOTE:   unemployed: 271.6667, 4.0000, 50.6667, 93.0360, -38.1333
+NOTE:   unknown: 360.6667, 6.3333, 22.6667, 93.3123, -34.1000
+NOTE: Resubstitution Error Rate: 0.5833
+NOTE: Cross-Validation Error Rate: 0.9722
+NOTE: Confusion Matrix:
+NOTE:      0    0    1    0    0    0    0    1    0    0    0    1
+NOTE:      0    2    0    0    0    0    0    0    0    0    1    0
+NOTE:      1    0    0    0    1    0    0    0    0    0    0    1
+NOTE:      0    0    0    1    0    0    0    0    1    0    1    0
+NOTE:      0    0    0    0    3    0    0    0    0    0    0    0
+NOTE:      0    0    1    0    0    2    0    0    0    0    0    0
+NOTE:      0    0    0    0    0    0    0    0    1    0    1    1
+NOTE:      0    0    0    0    0    0    0    2    0    0    1    0
+NOTE:      0    1    0    0    0    1    0    0    1    0    0    0
+NOTE:      0    0    0    1    0    0    0    0    0    2    0    0
+NOTE:      1    0    0    1    0    0    0    0    0    0    1    0
+NOTE:      0    0    1    0    0    0    0    1    0    0    0    1
+NOTE: Classification Results:
+NOTE:   Obs  True Class      Predicted Class  Correct
+NOTE:     1  self-employed   unemployed       No
+NOTE:     2  entrepreneur    admin.           No
+NOTE:     3  management      management       Yes
+NOTE:     4  entrepreneur    management       No
+NOTE:     5  technician      technician       Yes
+NOTE:     6  unemployed      housemaid        No
+NOTE:     7  housemaid       housemaid        Yes
+NOTE:     8  unknown         entrepreneur     No
+NOTE:     9  unemployed      admin.           No
+NOTE:    10  self-employed   student          No
+NOTE:    11  retired         retired          Yes
+NOTE:    12  blue-collar     blue-collar      Yes
+NOTE:    13  unemployed      unemployed       Yes
+NOTE:    14  student         student          Yes
+NOTE:    15  technician      technician       Yes
+NOTE:    16  student         retired          No
+NOTE:    17  unknown         services         No
+NOTE:    18  self-employed   unknown          No
+NOTE:    19  housemaid       unemployed       No
+NOTE:    20  admin.          services         No
+NOTE:    21  student         blue-collar      No
+NOTE:    22  blue-collar     blue-collar      Yes
+NOTE:    23  admin.          entrepreneur     No
+NOTE:    24  blue-collar     unemployed       No
+NOTE:    25  unknown         unknown          Yes
+NOTE:    26  technician      housemaid        No
+NOTE:    27  management      management       Yes
+NOTE:    28  services        unemployed       No
+NOTE:    29  retired         retired          Yes
+NOTE:    30  management      management       Yes
+NOTE:    31  services        services         Yes
+NOTE:    32  housemaid       student          No
+NOTE:    33  retired         entrepreneur     No
+NOTE:    34  entrepreneur    unknown          No
+NOTE:    35  services        services         Yes
+NOTE:    36  admin.          unknown          No
+NOTE: PROC DISCRIM: 36 observations, 5 variables, method=Normal, pool=Test
